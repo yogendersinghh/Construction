@@ -1,0 +1,37 @@
+.construction__choose{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.construction__choose-left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 100%;
+}
+.construction__choose-left__content{
+    width: 40%;
+}
+.construction__choose-left__content p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+
+/* or 156% */
+
+color: #6B6B6B;
+}
+.construction__choose-left__title{
+    width: 40%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 120%;
+    
+    /* or 65px */
+    
+    color: #313131;
+}

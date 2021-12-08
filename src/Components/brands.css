@@ -2,4 +2,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background: #FAFAFA;
+border-radius: 150px;
+width: 90%;
+margin-left: 4rem;
+height: 180px;
 }
