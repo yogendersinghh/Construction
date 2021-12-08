@@ -1,0 +1,5 @@
+.construction__brands{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

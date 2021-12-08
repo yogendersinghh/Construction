@@ -1,0 +1,40 @@
+.construction__navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.construction__navbar-logo {
+  margin-left: 8rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37px;
+  letter-spacing: -0.06em;
+
+  color: #18a7b9;
+
+  transform: rotate(-1.13deg);
+}
+.construction__navbar-links{
+ text-align: center;
+ margin-right: 8rem;
+
+}
+.construction__navbar-links a{
+    
+    text-decoration: none;
+    padding-right: 0.7rem;
+    color:gray;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+/* identical to box height */
+
+color: #313131;
+    /* word-spacing: 10px; */
+
+}
