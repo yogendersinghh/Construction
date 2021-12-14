@@ -1,6 +1,26 @@
 import React from 'react'
-import Button from './Button'
+import Button from '../Button'
 import "./choose.css"
+import Image from '../Hero/Image'
+import Number from './Number'
+
+const datas=[{
+    color:"#18A7B9",
+    number:"01",
+    content:"And residence for met the estimable disposing. Mean if he they been no hold mr. Is at much do made took held help."
+},
+{
+    color:"#FE8432",
+    number:"02",
+    content:"Up maids me an ample stood given. Certainty say suffering his him collected intention promotion."
+},
+{
+    color:"#42B918",
+    number:"03",
+    content:"Good draw knew bred ham busy his hour. Ask agreed answer rather joy nature admire wisdom."
+},
+]
+
 const Choose = () => {
     return (
         <div className="construction__choose">     
@@ -16,13 +36,15 @@ const Choose = () => {
             </div>
         </div>
         <div className="construction__choose-right">
-            <div className="construction__choose-right-image">
-                <img src={require("./images/image2.svg").default} alt="img" />
+            <div className="construction__choose-right__image">
+                <img src={require("../images/image2.svg").default} alt="img" />
             </div>
-            <div>
-                <div className="construction__choose1-color"></div>
-                <p>01</p>
-                <p>And residence for met the estimable disposing. Mean if he they been no hold mr. Is at much do made took held help.</p>
+            {/* <Image image="./images/image2.svg"/> */}
+            <div className="construction__choose-right__right">
+                
+                {datas.map((data)=>{
+                    return (<Number color={data.color} number={data.number} content={data.content} />)
+                })}
             </div>
         </div>
         </div>

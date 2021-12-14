@@ -1,11 +1,11 @@
 import React from 'react'
 import "./brands.css"
 const images = [
-    "./images/chase.png",
-    "./images/asana.svg",
-    "./images/buzzfeed.svg",
-    "./images/toggl.svg",
-    "./images/walmart.svg",
+    "./BrandsIcon/chase.png",
+    "./BrandsIcon/asana.svg",
+    "./BrandsIcon/buzzfeed.svg",
+    "./BrandsIcon/toggl.svg",
+    "./BrandsIcon/walmart.svg",
 ]
 const Brands = () => {
     return (

@@ -1,8 +1,8 @@
 import React from "react";
 import "./hero.css"
 import Information from "./Information";
-import Button from "./Button";
-
+import Button from "../Button";
+import Image from "./Image";
 // const style = {
 //     width: "41.44px",
 // height: "25.19px",
@@ -50,8 +50,9 @@ const Hero = () => {
       <div className="construction__hero-right">
         <div className="construction__hero-right__color1"></div>
         <div className="construction__hero-right__image">
-          <img src={require("./images/image.png").default} alt="Mask" />
+          <img src={require("./HeroIcon/image.png").default} alt="Mask" />
         </div>
+        {/* <Image image="../images/image.png" className="image"/> */}
         <div className="construction__hero-right__color2"></div>
       </div>
       </div>

@@ -1,0 +1,105 @@
+.construction__testimonial-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* background: bisque; */
+}
+.construction__testimonial-heading {
+  /* background-color: aqua; */
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  /* width: 1170px; */
+  /* height: 435px; */
+}
+.construction__testimonial-heading__heading {
+  width: 100%;
+  height: 15vh;
+  /* padding-left: 3rem; */
+  /* padding: 0 auto; */
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 33px;
+  /* line-height: 56px; */
+
+  /* identical to box height, or 104% */
+
+  color: #313131;
+
+  /* /* width: 514px; */
+  /* height: 56px; */
+}
+.construction__testimonial-heading__content {
+  font-family: Roboto;
+  font-size: 20px;
+  /* line-height: 28px; */
+
+  /* or 140% */
+  text-align: center;
+
+  color: #6b6b6b;
+  width: 100%;
+  /* height: 56px; */
+  height: 10vh;
+}
+.construction__testimonial-card {
+  /* opacity: 0.3; */
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  height: 60vh;
+  /* background-color: aqua; */
+}
+
+.construction__testimonial-button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  width: 120px;
+  height: 10vh;
+  background: #ffffff;
+  box-shadow: 0px 20px 50px rgba(198, 217, 225, 0.3);
+  border-radius: 65px;
+}
+.construction__testimonial-button__inside {
+  /* float: right; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 40px;
+  background: #18a7b9;
+  margin: 12px 8px 10px 10px;
+  /* background-position: center; */
+  /* background-position: botto; */
+  box-shadow: 0px 8px 15px rgba(72, 72, 138, 0.08);
+  border-radius: 40px;
+  /* padding: 21px; */
+  /* text-align: center; */
+}
+.construction__testimonial-button__inside-white {
+  text-align: center;
+  /* margin: inherit; */
+  /* float: r */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 40px;
+  background: white;
+  margin: 12px 8px 10px 10px;
+  /* background-position: center; */
+  /* background-position: botto; */
+  box-shadow: 0px 8px 15px rgba(72, 72, 138, 0.08);
+  border-radius: 40px;
+}
+.construction__testimonial-button__inside-white {
+  /* margin: inherit; */
+}

@@ -1,0 +1,69 @@
+.construction__message-main {
+  position: relative;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./image/message.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.construction__message-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 76px;
+
+  /* identical to box height, or 141% */
+
+  color: #fafafa;
+}
+.construction__message-message {
+  width: 70%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+
+  /* or 156% */
+
+  color: #fafafa;
+}
+
+.construction__message-leftcolon {
+  position: absolute;
+  /* transform: skewX(25deg); */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 200px;
+  /* line-height: 28px; */
+
+  /* or 156% */
+  /* top: 0.1px; */
+  left: 140px;
+  color: #fafafa;
+}
+.construction__message-rightcolon {
+  /* background: #ffffff; */
+  position: absolute;
+  top: 100px;
+  left: 1080px;
+  /* transform: skewX(25deg); */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  color: #fafafa;
+  font-size: 200px;
+  /* line-height: 28px; */
+  transform: rotate(-180deg);
+}
