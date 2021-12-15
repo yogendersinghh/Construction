@@ -119,7 +119,7 @@
 .construction__hero-right__color1 {
   position: absolute;
   top: -0.5rem;
-  left: -7rem;
+  left: -8rem;
   background: #c9e7ff;
   opacity: 0.4;
   border-radius: 106.5px 5px 5px 5px;
@@ -142,7 +142,7 @@
 .construction__hero-right__image {
   position: absolute;
   top: -5rem;
-  right: 2rem;
+  right: 4rem;
   width: 100%;
   height: 100vh;
   z-index: -2;

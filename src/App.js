@@ -7,6 +7,8 @@ import Testimonial from "./Components/Testimonials/Testimonial";
 import Message from "./Components/Message/Message";
 import Contact from "./Components/Contact/Contact";
 import Blog from "./Components/Blog/Blog";
+import Subscribe from "./Components/Subscribe/Subscribe";
+import Footer from "./Components/Footer/Footer";
 const App = () => {
   return (
     <div className="try">
@@ -19,6 +21,8 @@ const App = () => {
       <Message />
       <Contact />
       <Blog />
+      <Subscribe />
+      <Footer />
     </div>
   );
 };

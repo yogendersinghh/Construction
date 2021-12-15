@@ -1,0 +1,78 @@
+.construction__footer {
+  padding-top: 3.5rem;
+  min-height: 50vh;
+  max-height: 50vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.construction__footer-construction {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  width: 200px;
+}
+.construction__footer-logo {
+  font-size: 20px;
+  color: #18a7b9;
+}
+.construction__footer-links {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-linkedin {
+  background-color: #fafafa;
+  color: #18a7b9;
+  font-size: 30px;
+}
+.construction__footer-content {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 28px;
+
+  /* or 175% */
+
+  color: #6b6b6b;
+}
+.construction__footer-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  /* identical to box height */
+
+  color: #313131;
+}
+.construction__footer-list {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height */
+
+  color: #6b6b6b;
+}
+.construction__footer-email {
+  background: #fafafa;
+  border-radius: 4px;
+}
+.construction__footer-email input {
+  width: 100px;
+  border: none;
+  background-color: transparent;
+  padding-left: 0.5rem;
+}
+.construction__footer-email button {
+  background-color: transparent;
+  border: none;
+}
